@@ -24,7 +24,7 @@ else ifeq ($(UNAME),FreeBSD)
 	export NPROC=sysctl -n hw.ncpu
 	export REDOX_MAKE=gmake
 	PREFIX_BINARY=0
-	VB_AUDIO=pulse # To check, will probaly be OSS on most setups
+	VB_AUDIO=pulse # To check, will probably be OSS on most setups
 	VBM=VBoxManage
 else
 	FUMOUNT=fusermount -u
