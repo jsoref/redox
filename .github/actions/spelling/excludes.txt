@@ -1,0 +1,14 @@
+^\.github/
+ignore$
+\.gif$
+^bootloader/
+^bootloader-efi/
+^cookbook/
+^installer/
+^isolinux/
+^kernel/
+^rust/
+^redoxfs/
+^relibc/
+^bootloader-coreboot/
+\.gitmodules$
